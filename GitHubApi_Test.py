@@ -8,14 +8,8 @@ from GitHubApi import githubInfo
 class TestgithubInfo(unittest.TestCase):
     # define multiple sets of tests as functions with names that begin
     
-    def testgithubInfo(self):
+    def testGithubInfo(self):
         self.assertEqual(githubInfo("joshpirog"),'Repo ClassifyTriangle has 2 commits.\nRepo CS-385-Algorithms has 2 commits.\nRepo dribbble2react has 30 commits.\nRepo GitHubApi567 has 2 commits.\nRepo helloworld has 2 commits.\nRepo TriangleTest has 9 commits.\n')
-    
-    def testValidInput(self):
-        self.assertEqual(githubInfo(201, 500, -5), 'InvalidInput')
-        
-    def testIsIntegers(self):
-        self.assertEqual(githubInfo("apple", "pear", "fig"), 'InvalidInput')
     
     
         
