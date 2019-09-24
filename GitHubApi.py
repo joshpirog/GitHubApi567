@@ -8,7 +8,7 @@ Created on Sep 21, 2019
 import requests
 import json
 
-userId = input("Enter GitHub user ID: ")
+userId = "joshpirog"
 
 
 
