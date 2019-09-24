@@ -9,7 +9,7 @@ class TestgithubInfo(unittest.TestCase):
     # define multiple sets of tests as functions with names that begin
     
     def testGithubInfo(self):
-        self.assertEqual(githubInfo("joshpirog"),'Repo ClassifyTriangle has 2 commits.\nRepo CS-385-Algorithms has 2 commits.\nRepo dribbble2react has 30 commits.\nRepo GitHubApi567 has 2 commits.\nRepo helloworld has 2 commits.\nRepo TriangleTest has 9 commits.\n')
+        self.assertEqual(githubInfo("richkempinski"),'Repo hellogitworld has 30 commits.\nRepo helloworld has 6 commits.\nRepo Mocks has 10 commits.\nRepo Project1 has 2 commits.\nRepo threads-of-life has 1 commits.\n')
     
     
         
