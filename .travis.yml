@@ -4,4 +4,4 @@ python:
 install:
   - pip install requests
 script:
-  - python -m unittest GitHubApi5_Test
+  - python -m unittest Githubapi5_Test
